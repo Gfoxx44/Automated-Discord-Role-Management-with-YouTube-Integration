@@ -1,0 +1,21 @@
+# ====== Discord-Funktionalität ======
+# Kernbibliothek für die Interaktion mit der Discord-API
+discord.py>=2.0.0
+
+# Zum Laden von Umgebungsvariablen (z.B. dein Bot-Token) aus einer .env-Datei
+python-dotenv
+
+# ====== YouTube-Funktionalität ======
+# Google-Client-Bibliothek für die Interaktion mit der YouTube Data API v3
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+
+# ====== Datenbank (Optional, aber empfohlen) ======
+# Asynchrone Bibliothek zur Interaktion mit einer SQLite-Datenbank,
+# um Benutzerdaten, Verknüpfungen und Rollen zu speichern.
+aiosqlite
+
+# ====== Sonstiges ======
+# Für das Senden von HTTP-Anfragen (alternativ zur Google-Bibliothek)
+httpx
