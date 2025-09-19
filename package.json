@@ -1,0 +1,24 @@
+{
+  "name": "automated-discord-role-management-with-youtube-integration",
+  "version": "1.0.0",
+  "description": "A Discord bot that automatically assigns roles based on YouTube channel subscriptions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "youtube",
+    "api",
+    "role-management",
+    "discord-js"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "googleapis": "^109.0.1"
+  }
+}
